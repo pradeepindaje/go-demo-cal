@@ -47,13 +47,13 @@ func main() {
 
     fmt.Printf("%sAncient simple Calculator%s\n\n", BOLD, END)
 
-    fmt.Println("Enter the first number: ")
+    fmt.Println("Enter the first digit: ")
     if _, err := fmt.Scan(&firstNum); err != nil {
         log.Print("Failed to scan first number", err)
         return
     }
 
-    fmt.Println("Enter the second number")
+    fmt.Println("Enter the second digit")
     if _, err := fmt.Scan(&secondNum); err != nil {
         log.Print("Failed to scan second number", err)
         return
