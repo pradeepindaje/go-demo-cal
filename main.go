@@ -47,7 +47,7 @@ func main() {
 
 	fmt.Printf("%sAncient simple Calculator%s\n\n", BOLD, END)
 
-	fmt.Println("Golang Demo Calculator Test")
+	fmt.Println("Golang Demo Calculator Testing")
 
 	fmt.Println("Enter the first digit: ")
 	if _, err := fmt.Scan(&firstNum); err != nil {
